@@ -2,14 +2,15 @@
 
 body {
     font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
     height: 100vh;
     background: url(./assets/images/banner.jpg) center/cover;
     position: relative;
-}
-
-* {
-    margin: 0;
-    padding: 0;
+    background-repeat: no-repeat;
 }
 
 .navbar {
@@ -153,7 +154,7 @@ span.btn-valide {
 
 /* Début de la section de la page */
 
-/* section .grid1 {
+section .grid1 {
     padding: 5% 22%;
 }
 
@@ -169,7 +170,7 @@ section .grid1 .visit {
 }
 
 .grid1 .travel {
-    padding-top: 7%;
+    padding-top: 3%;
 }
 
 .grid1 .city1 {
@@ -191,8 +192,8 @@ section .grid1 .visit {
 }
 
 .grid1 .country {
-    width: 47%;
-    height: 27vh;
+    width: 40%;
+    height: 20vh;
     border-radius: 8%;
 }
 
@@ -204,7 +205,7 @@ section .grid1 .visit {
 span.btn-more {
     background-color: #22b3c1;
     position: absolute;
-    right: 33%;
+    right: 20%;
     margin-top: 8px;
     font-size: 14px;
     border-radius: 19px;
@@ -248,6 +249,11 @@ span.btn-more {
     color: #22b3c1;
 }
 
+.line {
+    /* border-bottom-width: thin;
+     border-bottom-style: solid; */
+}
+
 .three-row .row0 {
     width: 100%;
     margin-left: 0%;
@@ -276,7 +282,7 @@ span.btn-more {
 
 .travel .circle {
     position: relative;
-    left: 27%;
+    left: 32%;
     margin-top: 3%;
     cursor: pointer;
 }
@@ -353,4 +359,4 @@ footer .img {
 .bg-footer a {
     text-decoration: none;
     color: #fff;
-} */
+}
