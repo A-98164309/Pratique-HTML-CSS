@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "poppins", sans-serif;
+    height: 100vh;
+    background: url(./assets/images/banner.jpg) center/cover;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: #22b3c1;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: -8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 8rem;
+    cursor: pointer;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+}
+
+.list li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    padding: 22px;
+    font-family: "poppins", sans-serif;
+    font-size: 12px;
+}
+
+.home {
+    border-top: 2px solid #fff;
+    width: 15px;
+    position: absolute;
+    top: 26%;
+    right: 38%;
+}
+
+header .land {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.text p {
+    font-size: 14px;
+}
+
+header .btn-submit {
+    border: 1px solid #22b3c1;
+    border-radius: 24px;
+    font-size: 10px;
+    padding: 2% 7%;
+    color: #22b3c1;
+    cursor: pointer;
+}
+
+header .grid {
+    position: absolute;
+    bottom: 13%;
+    left: 17%;
+    width: 68%;
+    height: 10%;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    transform: translateY(17%);
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid .pop {
+    display: flex;
+    align-items: center;
+    margin-right: 9%;
+    margin-left: -20%;
+}
+
+.grid .pop #user {
+    background: #fff;
+    border: 1px solid #22b3c1;
+    border-radius: 50px;
+    height: 25px;
+    width: 26px;
+    padding: 8px;
+}
+
+.grid .pop1 {
+    display: block;
+    padding: 10px;
+}
+
+.grid .pop1 h6 {
+    color: #afafaf;
+    font-weight: 400;
+    position: absolute;
+    top: 24%
+}
+
+.grid .pop1 p {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    color: #22b3c1;
+}
+
+.grid .pop i {
+    color: #22b3c1;
+    margin-left: 5%;
+    margin-right: 12%;
+}
+
+.grid .btn-pop1 {
+    background-color: #22b3c1;
+    width: 13%;
+    position: absolute;
+    top: 36%;
+    right: 7%;
+    transform: translate(15%, -17%);
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+span.btn-valide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* Début de la section de la page */
+
+/* section .grid1 {
+    padding: 5% 22%;
+}
+
+section .grid1 .visit {
+    display: flex;
+    flex-direction: column;
+}
+
+.visit p {
+    font-size: 11px;
+    margin: 0;
+    color: #afafaf;
+}
+
+.grid1 .travel {
+    padding-top: 7%;
+}
+
+.grid1 .city1 {
+    display: flex;
+    flex-direction: row;
+    margin: 4% 0%;
+}
+
+.one {
+    width: 85vh;
+    padding-left: 2%;
+}
+
+.city1 .explore {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2%;
+    line-height: 0px;
+}
+
+.grid1 .country {
+    width: 47%;
+    height: 27vh;
+    border-radius: 8%;
+}
+
+.city1 p {
+    font-size: 10px;
+    color: #afafaf;
+}
+
+span.btn-more {
+    background-color: #22b3c1;
+    position: absolute;
+    right: 33%;
+    margin-top: 8px;
+    font-size: 14px;
+    border-radius: 19px;
+    cursor: pointer;
+    padding: 16px;
+    color: #ffffff
+}
+
+.poup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #afafaf;
+}
+
+.popp .nameuser,
+.arrow {
+    margin-left: 10px;
+}
+
+.popp .fa-globe,
+.fa-home {
+    margin-right: 10px;
+}
+
+.direction {
+    cursor: pointer;
+}
+
+.direction p {
+    color: #22b3c1;
+    font-size: 12px;
+}
+
+.direction i {
+    color: #22b3c1;
+}
+
+.three-row .row0 {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.text-3 p {
+    cursor: pointer;
+}
+
+.text-3 p span,
+.fa-long-arrow-left {
+    color: #22b3c1;
+}
+
+.grid1 .city {
+    display: flex;
+    flex-direction: row;
+    width: 76vw 1094.4px;
+}
+
+.city .map {
+    border-radius: 7%;
+    width: 33vh;
+    margin-left: 20%;
+}
+
+.travel .circle {
+    position: relative;
+    left: 27%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.circle .fa-long-arrow-right {
+    margin-left: 16%;
+    color: #22b3c1;
+}
+
+#circle1 {
+    height: 25px;
+    width: 26px;
+    border: 1px solid #22b3c1;
+    position: absolute;
+    border-radius: 150px;
+    text-align: center;
+    color: #22b3c1;
+}
+
+.circle1 {
+    margin-left: 1%;
+}
+
+#circle2 {
+    height: 25px;
+    width: 26px;
+    background-color: #22b3c1;
+    border: 1px solid #22b3c1;
+    position: absolute;
+    border-radius: 150px;
+    text-align: center;
+    color: #ffffff;
+    left: 8.5%;
+}
+
+.circle3 {
+    margin-left: 11%;
+}
+
+footer .img {
+    background: url(./assets/images/cta-bg.jpg) center/cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    padding: 3%;
+}
+
+.img span.btn-book {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    width: 8%;
+    padding: 9px;
+    font-size: 11px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bg-footer {
+    background: #22b3c1;
+    margin-top: -2%;
+    padding: 10px;
+    text-align: center;
+}
+
+.bg-footer p {
+    line-height: 13px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.bg-footer a {
+    text-decoration: none;
+    color: #fff;
+} */
