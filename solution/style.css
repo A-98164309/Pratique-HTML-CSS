@@ -254,6 +254,10 @@ span.btn-more {
      border-bottom-style: solid; */
 }
 
+.divider {
+    border-bottom: 1px solid #eee;
+}
+
 .three-row .row0 {
     width: 100%;
     margin-left: 0%;
