@@ -19,7 +19,7 @@ header {
     width: 100%;
     height: 50px;
     position: absolute;
-    top: -8px;
+    top: -1px;
     justify-content: space-around;
     align-items: center;
 }
@@ -48,7 +48,7 @@ header {
     width: 15px;
     position: absolute;
     top: 26%;
-    right: 38%;
+    right: 43.7%;
 }
 
 header .land {
@@ -115,12 +115,12 @@ header .grid {
     color: #afafaf;
     font-weight: 400;
     position: absolute;
-    top: 5%
+    top: -7%
 }
 
 .grid .pop1 p {
     position: absolute;
-    bottom: 14%;
+    bottom: 8%;
     font-size: 14px;
     font-weight: 700;
     color: #22b3c1;
@@ -181,19 +181,19 @@ section .grid1 .visit {
 }
 
 .one {
-    width: 85vh;
+    width: 55vh;
     padding-left: 2%;
 }
 
 .city1 .explore {
     display: flex;
     justify-content: space-between;
-    margin-top: 2%;
+    margin-top: -3%;
     line-height: 0px;
 }
 
 .grid1 .country {
-    width: 40%;
+    /* width: 40%; */
     height: 20vh;
     border-radius: 8%;
 }
@@ -206,7 +206,7 @@ section .grid1 .visit {
 span.btn-more {
     background-color: #22b3c1;
     position: absolute;
-    right: 20%;
+    right: 38%;
     margin-top: 8px;
     font-size: 14px;
     border-radius: 19px;
@@ -225,6 +225,10 @@ span.btn-more {
     flex-direction: row;
     align-items: center;
     color: #afafaf;
+}
+
+.popp p {
+    cursor: pointer;
 }
 
 .popp .nameuser,
@@ -277,7 +281,8 @@ span.btn-more {
 .city .map {
     border-radius: 7%;
     width: 33vh;
-    margin-left: 20%;
+    position: absolute;
+    right: 18%;
 }
 
 .travel .circle {
