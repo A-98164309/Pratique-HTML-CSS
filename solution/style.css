@@ -29,10 +29,12 @@ header {
     position: absolute;
     left: 15%;
 }
-.list{
+
+.list {
     position: absolute;
     right: 15%;
 }
+
 .list ul {
     display: flex;
     align-items: center;
@@ -103,7 +105,7 @@ header .grid {
 .grid .pop #user {
     background: #fff;
     border: 1px solid #22b3c1;
-    border-radius: 25px;
+    border-radius: 50%;
     padding: 15px;
 }
 
@@ -131,7 +133,7 @@ header .grid {
 
 .grid .pop i {
     color: #22b3c1;
-   margin: auto;
+    margin: auto;
 }
 
 .grid .btn-pop1 {
@@ -190,7 +192,8 @@ section .grid1 .visit {
 .city1 .explore {
     display: flex;
     justify-content: space-between;
-    margin-top: -3%;
+    position: relative;
+    top: -3%;
     line-height: 0px;
 }
 
@@ -208,8 +211,8 @@ section .grid1 .visit {
 span.btn-more {
     background-color: #22b3c1;
     position: absolute;
-    right: 38%;
-    margin-top: 8px;
+    right: 5%;
+    bottom: 10px;
     font-size: 14px;
     border-radius: 19px;
     cursor: pointer;
@@ -220,6 +223,7 @@ span.btn-more {
 .poup {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .popp {
@@ -227,6 +231,10 @@ span.btn-more {
     flex-direction: row;
     align-items: center;
     color: #afafaf;
+}
+
+.globe {
+    margin-right: 5%;
 }
 
 .popp p {
@@ -261,9 +269,11 @@ span.btn-more {
 }
 
 .three-row .row0 {
-    width: 100%;
+    width: 95%;
     margin-left: 0%;
 }
+
+
 
 .text-3 p {
     cursor: pointer;
@@ -280,53 +290,62 @@ span.btn-more {
     width: 76vw 1094.4px;
 }
 
+.maps {
+    position: relative;
+    left: 2%;
+}
+
 .city .map {
     border-radius: 7%;
-    width: 33vh;
+    width: 26vh;
     position: absolute;
-    right: 18%;
+    top: 5%;
 }
 
 .travel .circle {
     position: relative;
-    left: 32%;
-    margin-top: 3%;
+    left: 23%;
     cursor: pointer;
 }
 
 .circle .fa-long-arrow-right {
-    margin-left: 16%;
+    margin-left: 19%;
     color: #22b3c1;
 }
 
 #circle1 {
-    height: 25px;
-    width: 26px;
+    padding: 8px;
+    width: 16px;
     border: 1px solid #22b3c1;
     position: absolute;
-    border-radius: 150px;
+    border-radius: 50%;
     text-align: center;
     color: #22b3c1;
 }
 
 .circle1 {
     margin-left: 1%;
+    margin-top: -1%;
 }
 
 #circle2 {
-    height: 25px;
-    width: 26px;
+    padding: 8px;
+    width: 16px;
     background-color: #22b3c1;
     border: 1px solid #22b3c1;
     position: absolute;
     border-radius: 150px;
     text-align: center;
     color: #ffffff;
-    left: 8.5%;
+    left: 9.5%;
+}
+.circle2 {
+    margin-top: -1%;
 }
 
 .circle3 {
-    margin-left: 11%;
+    margin-left: 13%;
+    margin-top: -1%;
 }
 
 footer .img {
@@ -337,6 +356,11 @@ footer .img {
     align-items: center;
     color: #ffffff;
     padding: 3%;
+   
+}
+.reservation{
+    position: relative;
+  left: 8.4%;
 }
 
 .img span.btn-book {
@@ -347,6 +371,7 @@ footer .img {
     font-size: 11px;
     text-align: center;
     cursor: pointer;
+    margin-left: 15%;
 }
 
 .bg-footer {
