@@ -107,6 +107,9 @@ header .grid {
     border: 1px solid #22b3c1;
     border-radius: 50%;
     padding: 15px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 .grid .pop1 {
@@ -309,18 +312,23 @@ span.btn-more {
 }
 
 .circle .fa-long-arrow-right {
-    margin-left: 19%;
+    position: absolute;
+    top: 15%;
+    left: 24%;
     color: #22b3c1;
 }
 
 #circle1 {
     padding: 8px;
-    width: 16px;
+    width: 30px;
+    height: 30px;
     border: 1px solid #22b3c1;
     position: absolute;
     border-radius: 50%;
     text-align: center;
+    line-height: 30px;
     color: #22b3c1;
+    font-size: 24px;
 }
 
 .circle1 {
@@ -330,21 +338,25 @@ span.btn-more {
 
 #circle2 {
     padding: 8px;
-    width: 16px;
+    width: 30px;
+    height: 30px;
     background-color: #22b3c1;
     border: 1px solid #22b3c1;
     position: absolute;
-    border-radius: 150px;
+    left: 10%;
+    border-radius: 50px;
+    line-height: 30px;
     text-align: center;
     color: #ffffff;
-    left: 9.5%;
+    font-size: 24px;
 }
+
 .circle2 {
     margin-top: -1%;
 }
 
 .circle3 {
-    margin-left: 13%;
+    margin-left: 15%;
     margin-top: -1%;
 }
 
@@ -356,11 +368,12 @@ footer .img {
     align-items: center;
     color: #ffffff;
     padding: 3%;
-   
+
 }
-.reservation{
+
+.reservation {
     position: relative;
-  left: 8.4%;
+    left: 8.4%;
 }
 
 .img span.btn-book {
