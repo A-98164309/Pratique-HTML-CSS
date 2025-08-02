@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.noyau {
+    /* .......CSS a completer ici........ */
+    position: relative;
+    border: 1px solid red;
+    padding: 100px;
+}
+
+.atome {
+    width: 60px;
+    height: 20px;
+}
+
+.atome1 {
+    /* .......CSS a completer ici........ */
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid blue;
+}
+
+.atome2 {
+    /* .......CSS a completer ici........ */
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid blue;
+}
+
+.atome3 {
+    /* .......CSS a completer ici........ */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px solid blue;
+}
+
+.atome4 {
+    /* .......CSS a completer ici........ */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 1px solid blue;
+}
